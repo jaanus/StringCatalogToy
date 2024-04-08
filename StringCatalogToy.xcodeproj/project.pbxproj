@@ -12,6 +12,7 @@
 		EA8AB5B12BC3DE7F000C0B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8AB5B02BC3DE7F000C0B26 /* Assets.xcassets */; };
 		EA8AB5B52BC3DE7F000C0B26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8AB5B42BC3DE7F000C0B26 /* Preview Assets.xcassets */; };
 		EAF8E7AD2BC3E3FD00050967 /* TestUI in Frameworks */ = {isa = PBXBuildFile; productRef = EAF8E7AC2BC3E3FD00050967 /* TestUI */; };
+		EAF8E7AF2BC3E71700050967 /* Strings in Frameworks */ = {isa = PBXBuildFile; productRef = EAF8E7AE2BC3E71700050967 /* Strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAF8E7AD2BC3E3FD00050967 /* TestUI in Frameworks */,
+				EAF8E7AF2BC3E71700050967 /* Strings in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +103,7 @@
 			name = StringCatalogToy;
 			packageProductDependencies = (
 				EAF8E7AC2BC3E3FD00050967 /* TestUI */,
+				EAF8E7AE2BC3E71700050967 /* Strings */,
 			);
 			productName = StringCatalogToy;
 			productReference = EA8AB5A92BC3DE7E000C0B26 /* StringCatalogToy.app */;
@@ -128,6 +131,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"et-EE",
 			);
 			mainGroup = EA8AB5A02BC3DE7E000C0B26;
 			packageReferences = (
@@ -385,6 +389,10 @@
 		EAF8E7AC2BC3E3FD00050967 /* TestUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = TestUI;
+		};
+		EAF8E7AE2BC3E71700050967 /* Strings */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Strings;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

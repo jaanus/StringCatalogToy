@@ -5,6 +5,7 @@
 //  Created by Jaanus Kase on 08.04.2024.
 //
 
+import Strings
 import SwiftUI
 import TestUI
 
@@ -14,7 +15,7 @@ struct ContentView: View {
       Image(systemName: "globe")
         .imageScale(.large)
         .foregroundStyle(.tint)
-      Text("Hello, world!")
+      Text("RootHello", bundle: StringsExporter.bundle)
       TestUIView()
     }
     .padding()

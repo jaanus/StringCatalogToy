@@ -6,14 +6,16 @@
 //
 
 import SwiftUI
+import Strings
 
 public struct TestUIView: View {
   public init() {}
   public var body: some View {
-    Text("Hello from a child view")
+    Text("ChildHello", bundle: StringsExporter.bundle)
   }
 }
 
 #Preview {
   TestUIView()
+    .environment(\.locale, Locale(identifier: "et-EE"))
 }
