@@ -11,6 +11,7 @@
 		EA8AB5AF2BC3DE7E000C0B26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8AB5AE2BC3DE7E000C0B26 /* ContentView.swift */; };
 		EA8AB5B12BC3DE7F000C0B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8AB5B02BC3DE7F000C0B26 /* Assets.xcassets */; };
 		EA8AB5B52BC3DE7F000C0B26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8AB5B42BC3DE7F000C0B26 /* Preview Assets.xcassets */; };
+		EAF8E7AD2BC3E3FD00050967 /* TestUI in Frameworks */ = {isa = PBXBuildFile; productRef = EAF8E7AC2BC3E3FD00050967 /* TestUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,8 @@
 		EA8AB5B02BC3DE7F000C0B26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA8AB5B22BC3DE7F000C0B26 /* StringCatalogToy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StringCatalogToy.entitlements; sourceTree = "<group>"; };
 		EA8AB5B42BC3DE7F000C0B26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EAB127AE2BC3E26400DF14D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EAC1E24C2BC3E30600DB991C /* Library */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Library; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAF8E7AD2BC3E3FD00050967 /* TestUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,8 +40,10 @@
 		EA8AB5A02BC3DE7E000C0B26 = {
 			isa = PBXGroup;
 			children = (
+				EAC1E24C2BC3E30600DB991C /* Library */,
 				EA8AB5AB2BC3DE7E000C0B26 /* StringCatalogToy */,
 				EA8AB5AA2BC3DE7E000C0B26 /* Products */,
+				EAC1E2492BC3E2CB00DB991C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,6 +58,7 @@
 		EA8AB5AB2BC3DE7E000C0B26 /* StringCatalogToy */ = {
 			isa = PBXGroup;
 			children = (
+				EAB127AE2BC3E26400DF14D3 /* Info.plist */,
 				EA8AB5AC2BC3DE7E000C0B26 /* StringCatalogToyApp.swift */,
 				EA8AB5AE2BC3DE7E000C0B26 /* ContentView.swift */,
 				EA8AB5B02BC3DE7F000C0B26 /* Assets.xcassets */,
@@ -67,6 +74,13 @@
 				EA8AB5B42BC3DE7F000C0B26 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EAC1E2492BC3E2CB00DB991C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +99,9 @@
 			dependencies = (
 			);
 			name = StringCatalogToy;
+			packageProductDependencies = (
+				EAF8E7AC2BC3E3FD00050967 /* TestUI */,
+			);
 			productName = StringCatalogToy;
 			productReference = EA8AB5A92BC3DE7E000C0B26 /* StringCatalogToy.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +130,8 @@
 				Base,
 			);
 			mainGroup = EA8AB5A02BC3DE7E000C0B26;
+			packageReferences = (
+			);
 			productRefGroup = EA8AB5AA2BC3DE7E000C0B26 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -274,6 +293,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StringCatalogToy/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -312,6 +332,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StringCatalogToy/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -359,6 +380,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EAF8E7AC2BC3E3FD00050967 /* TestUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TestUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EA8AB5A12BC3DE7E000C0B26 /* Project object */;
 }
