@@ -11,7 +11,10 @@ import Strings
 public struct TestUIView: View {
   public init() {}
   public var body: some View {
-    Text("ChildHello", bundle: StringsExporter.bundle)
+    VStack {
+      Text("ChildHello", bundle: StringsExporter.bundle)
+      Text("NewKey", tableName: "AnotherTable", bundle: StringsExporter.bundle)
+    }
   }
 }
 

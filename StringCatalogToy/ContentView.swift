@@ -24,4 +24,5 @@ struct ContentView: View {
 
 #Preview {
   ContentView()
+    .environment(\.locale, Locale(identifier: "et-EE"))
 }
