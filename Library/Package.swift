@@ -22,10 +22,7 @@ let package = Package(
     ),
     .target(
       name: "Strings",
-      path: "Targets/Strings/Sources",
-      resources: [
-        .process("Localizable.xcstrings")
-      ]
+      path: "Targets/Strings/Sources"
     )
   ]
 )
