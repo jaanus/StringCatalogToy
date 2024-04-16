@@ -1,19 +1,19 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "NewKey" : {
+    "AnotherTableKey" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "New key EN"
+            "value" : "String in another table"
           }
         },
         "et-EE" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Uus tekst ET"
+            "value" : "Tekst teises tabelis"
           }
         }
       }

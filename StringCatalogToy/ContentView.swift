@@ -11,7 +11,7 @@ import TestUI
 
 struct ContentView: View {
   var body: some View {
-    VStack {
+    VStack(spacing: 8) {
       Image(systemName: "globe")
         .imageScale(.large)
         .foregroundStyle(.tint)

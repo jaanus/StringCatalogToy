@@ -7,7 +7,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hello from child catalog"
+            "value" : "Hello child view from strings module"
           }
         },
         "et-EE" : {
@@ -24,7 +24,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hello, world, from catalog"
+            "value" : "Hello root view from strings module"
           }
         },
         "et-EE" : {

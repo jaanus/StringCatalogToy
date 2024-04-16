@@ -4,15 +4,15 @@ import Strings
 public struct TestUIView: View {
   public init() {}
   public var body: some View {
-    VStack {
+    VStack(spacing: 8) {
       // Load a string from the default table of the strings module
       Text("ChildHello", bundle: StringsExporter.bundle)
       
       // Load a string from a custom table of the strings module
-      Text("NewKey", tableName: "AnotherTable", bundle: StringsExporter.bundle)
+      Text("AnotherTableKey", tableName: "AnotherTable", bundle: StringsExporter.bundle)
       
       // Load a string from the local module
-      Text("ModuleBundle", bundle: .module)
+      Text("ModuleBundleKey", bundle: .module)
     }
   }
 }
