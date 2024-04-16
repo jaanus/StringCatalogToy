@@ -1,0 +1,23 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "ModuleBundle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "String from module bundle"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst mooduli stringifailist"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

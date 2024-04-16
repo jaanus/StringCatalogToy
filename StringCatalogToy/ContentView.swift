@@ -22,7 +22,12 @@ struct ContentView: View {
   }
 }
 
-#Preview {
+#Preview("en-US") {
+  ContentView()
+    .environment(\.locale, Locale(identifier: "en-US"))
+}
+
+#Preview("et-EE") {
   ContentView()
     .environment(\.locale, Locale(identifier: "et-EE"))
 }
